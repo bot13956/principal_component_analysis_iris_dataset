@@ -29,7 +29,7 @@ ggpairs(df,columns = c("sepal_length", "sepal_width","petal_length","petal_width
 
 pca <- prcomp(df[,1:4], scale. = TRUE)
 
-# extract import components
+# extract important components
 summary(pca)
 
 # calculate covariance matrix in PCA space
